@@ -1,39 +1,42 @@
 /* Styles untuk header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    background-color: #e0a149;
+    color: #000000;
+    padding: 50px;
   }
   
   /* Styles untuk navigasi */
   nav {
-    background-color: #f2f2f2;
-    padding: 10px;
+    background-color: #ddb379;
+    padding: 20px;
   }
   
   /* Styles untuk container */
   .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: unset;
   }
   
   /* Styles untuk sidebar */
   aside {
+    float: left;
     flex-basis: 25%;
-    background-color: #f2f2f2;
-    padding: 10px;
+    background-color: #e3f887;
+    padding: 110px;
   }
   
   /* Styles untuk konten */
   main {
+    float: right;
     flex-basis: 75%;
-    padding: 10px;
+    background-color: #d8f45e;
+    padding: 110px;
   }
   
   /* Styles untuk footer */
   footer {
-    background-color: #333;
+    background-color: #a03535;
     color: #fff;
-    padding: 10px;
+    padding: 50px;
   }
   
