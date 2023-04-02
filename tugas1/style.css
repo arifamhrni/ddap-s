@@ -1,0 +1,39 @@
+/* Styles untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Styles untuk navigasi */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Styles untuk container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Styles untuk sidebar */
+  aside {
+    flex-basis: 25%;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Styles untuk konten */
+  main {
+    flex-basis: 75%;
+    padding: 10px;
+  }
+  
+  /* Styles untuk footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
