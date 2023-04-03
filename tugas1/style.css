@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
 /* Styles untuk header */
 header {
     background-color: #e0a149;
@@ -20,17 +25,17 @@ header {
   /* Styles untuk sidebar */
   aside {
     float: left;
-    flex-basis: 25%;
+    flex-basis: 15%;
     background-color: #e3f887;
-    padding: 110px;
+    padding: 100px;
   }
   
   /* Styles untuk konten */
   main {
     float: right;
-    flex-basis: 75%;
+    flex-basis: 85%;
     background-color: #d8f45e;
-    padding: 110px;
+    padding: 100px;
   }
   
   /* Styles untuk footer */
