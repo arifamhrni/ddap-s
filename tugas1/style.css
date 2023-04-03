@@ -1,47 +1,114 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
 }
 
 /* Styles untuk header */
 header {
-    background-color: #e0a149;
-    color: #000000;
-    padding: 50px;
-  }
+  margin: 10px 10px;
+  text-align: center;
+  background-color: #233f48;
+  color: #ffffff;
+  padding: 20px;
+  border-bottom: 5px solid #000000;
+  border-right: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-top:5px solid #000000;
+}
+
+img{
+  display: flex;
+  position: fixed;
+  width: 170px;
+  padding-left: 20px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
   
   /* Styles untuk navigasi */
-  nav {
-    background-color: #ddb379;
-    padding: 20px;
-  }
+nav {
+  flex-basis: 15%;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  position: relative;
+  margin: 10px 10px;
+  background-color: #7c7c9f;
+  padding: 15px;
+  border-bottom: 5px solid rgb(12, 12, 12);
+  border-right: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-top:5px solid #000000;
+}
   
   /* Styles untuk container */
-  .container {
-    display: flex;
-    flex-wrap: unset;
-  }
+.container {
+  margin: 5px 5px;
+  display: flex;
+  flex-wrap: unset;
+}
   
   /* Styles untuk sidebar */
-  aside {
-    float: left;
-    flex-basis: 15%;
-    background-color: #e3f887;
-    padding: 100px;
-  }
+aside {
+  text-align: left;
+  float: left;
+  flex-basis: 10%;
+  background-color: #7868c7;
+  padding: 90px;
+}
+
+.Sidebar {
+  position: absolute;
+  width : 18%;
+  height : 112%;
+  background : #EDCDBB;
+  overflow : auto;
+}
+.Sidebar header{
+  font-size : 16px;
+  color : #FFFBEB;    
+  text-align : center;
+  padding-top : 10px;
+  line-height : 25px;
+  user-select : none;
+}
+.Sidebar ul a{
+  display : block;
+  text-decoration : none;
+  line-height : 50px;
+  font-size : 14px;
+  color : #8D7B68;
+  padding-left : 20px;
+  box-sizing : 40px;
+  border-top : 1px solid #FFFBEB;
+  transition : .5s;
+}
+ul li:hover a{
+  padding-left : 35px;
+}
+.Sidebar ul a i {   
+  margin-right : 16px;
+}
   
   /* Styles untuk konten */
   main {
     float: right;
-    flex-basis: 85%;
-    background-color: #d8f45e;
-    padding: 100px;
+    font-size: 100%;
+    flex-basis: 90%;
+    background-color: #c2b8ff;
+    padding: 105px;
   }
+
   
   /* Styles untuk footer */
   footer {
-    background-color: #a03535;
-    color: #fff;
-    padding: 50px;
-  }
+  margin: 10px 10px;
+  background-color: #a03535;
+  color: #fff;
+  padding: 15px;
+  border-bottom: 5px solid rgb(12, 12, 12);
+  border-right: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-top:5px solid #000000;
+}
   
